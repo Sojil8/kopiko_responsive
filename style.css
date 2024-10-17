@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.hro {
+    color: white;
+}
+
+.nav-headline {
+    font-family: "Playfair Display" !important;
+    color: rgb(183, 183, 183);
+    font-size: 44px;
+    letter-spacing: 6.5px;
+    line-height: 55.6px;
+    font-weight: 400;
+    transition: .8s ease-in-out;
+}
+
+.nav-headline:hover {
+    cursor: pointer;
+    color: rgb(219, 79, 61);
+}
+
+.nav-subhead {
+    line-height: 21px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(183, 183, 183);
+}
+
+.nav-item a {
+    color: white;
+    text-align: center;
+    transition: .8s ease-in-out;
+}
+
+.nav-item a:hover {
+    cursor: pointer;
+    color: rgb(219, 79, 61);
+}
+
+.first-text1,
+.first-text2 {
+    color: rgb(122, 122, 122);
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 35.2px;
+    margin-top: 40px;
+    letter-spacing: -0.6px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.cpyright-1 {
+    color: gray;
+}
+
+.cpyright-2 {
+    color: white;
+    transition: .8s ease-in-out;
+}
+
+.cpyright-2:hover {
+    cursor: pointer;
+    color: rgb(219, 79, 61);
+}
+
+.ad {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
+
+.arrowbtn {
+    padding: 12px;
+    border-radius: 100px;
+    background-color: red;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    
+}
+
+.arrowbtn i {
+    color: white;
+    transition: .8s ease-in-out;
+}
+
+.arrowbtn i:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* Media query for screens less than 576px */
+@media (max-width: 576px) {
+    .nav-headline {
+        font-size: 32px;
+    }
+
+    .first-text1, .first-text2 {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
